@@ -3,10 +3,14 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { SquareComponent } from './TicTacToe/square/square.component';
+import { GridComponent } from './TicTacToe/grid/grid.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SquareComponent,
+    GridComponent
   ],
   imports: [
     BrowserModule,
